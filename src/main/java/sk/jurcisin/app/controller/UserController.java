@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import sk.jurcisin.app.service.UserService;
 
-@RequestMapping(path = "/v2/user")
+@RequestMapping(value = "/v2/user")
 @RestController
 public class UserController {
 
